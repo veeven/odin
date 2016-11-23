@@ -4,21 +4,21 @@
   "instructions": {
     "start": {
       "phrases": {
-        "0": "Head <CARDINAL_DIRECTION>.",
-        "1": "Head <CARDINAL_DIRECTION> on <STREET_NAMES>.",
-        "2": "Head <CARDINAL_DIRECTION> on <BEGIN_STREET_NAMES>. Continue on <STREET_NAMES>.",
+        "0": "<CARDINAL_DIRECTION> వైపు వెళ్ళండి.",
+        "1": "<STREET_NAMES>లో <CARDINAL_DIRECTION> వైపు వెళ్ళండి.",
+        "2": "<BEGIN_STREET_NAMES> లో <CARDINAL_DIRECTION> వైపు వెళ్ళండి. <STREET_NAMES>లో ముందుకెళ్ళండి.",
         "4": "Drive <CARDINAL_DIRECTION>.",
         "5": "Drive <CARDINAL_DIRECTION> on <STREET_NAMES>.",
         "6": "Drive <CARDINAL_DIRECTION> on <BEGIN_STREET_NAMES>. Continue on <STREET_NAMES>.",
-        "8": "Walk <CARDINAL_DIRECTION>.",
-        "9": "Walk <CARDINAL_DIRECTION> on <STREET_NAMES>.",
+        "8": "<CARDINAL_DIRECTION> వైపు నడవండి.",
+        "9": "<STREET_NAMES>లో <CARDINAL_DIRECTION> వైపు నడవండి.",
         "10": "Walk <CARDINAL_DIRECTION> on <BEGIN_STREET_NAMES>. Continue on <STREET_NAMES>.",
         "16": "Bike <CARDINAL_DIRECTION>.",
         "17": "Bike <CARDINAL_DIRECTION> on <STREET_NAMES>.",
         "18": "Bike <CARDINAL_DIRECTION> on <BEGIN_STREET_NAMES>. Continue on <STREET_NAMES>."
       },
-      "cardinal_directions": ["north", "northeast", "east", "southeast", "south", "southwest", "west", "northwest"],
-      "empty_street_name_labels": ["the walkway", "the cycleway", "the mountain bike trail"],
+      "cardinal_directions": ["ఉత్తరం", "ఈశాన్యం", "తూర్పు", "ఆగ్నేయం", "దక్షిణం", "నైరుతి", "పడమర", "వాయువ్యం"],
+      "empty_street_name_labels": ["కాలిబాట", "సైకిలు బాట", "the mountain bike trail"],
       "example_phrases": {
         "0": ["Head east.", "Head north."],
         "1": ["Head southwest on 5th Avenue.", "Head west on the walkway", "Head east on the cycleway", "Head north on the mountain bike trail"],
@@ -36,8 +36,8 @@
     },
     "start_verbal": {
       "phrases": {
-        "0": "Head <CARDINAL_DIRECTION> for <LENGTH>.",
-        "1": "Head <CARDINAL_DIRECTION> on <STREET_NAMES> for <LENGTH>.",
+        "0": "<CARDINAL_DIRECTION> వైపు <LENGTH> వెళ్ళండి.",
+        "1": "<STREET_NAMES>లో <CARDINAL_DIRECTION> వైపు <LENGTH> వెళ్ళండి.",
         "2": "Head <CARDINAL_DIRECTION> on <BEGIN_STREET_NAMES>.",
         "4": "Drive <CARDINAL_DIRECTION> for <LENGTH>.",
         "5": "Drive <CARDINAL_DIRECTION> on <STREET_NAMES> for <LENGTH>.",
@@ -105,7 +105,7 @@
         "2": "Your destination is on the <RELATIVE_DIRECTION>.",
         "3": "<DESTINATION> is on the <RELATIVE_DIRECTION>."
       },
-      "relative_directions": ["left", "right"],
+      "relative_directions": ["ఎడమ", "కుడి"],
       "example_phrases": {
         "0": ["You have arrived at your destination."],
         "1": ["You have arrived at 32 o6 Powelton Avenue."],
